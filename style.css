@@ -1,0 +1,15 @@
+p{
+    font-family: 'Cherry Bomb One', cursive;
+    background: url('https://picsum.photos/4000/3000');
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #5b728a54;
+    animation: move 50s linear infinite;
+    font-size: 200px;
+    font-weight: bolder;
+}
+
+@keyframes move {
+    from { background-position: 0 50%; }
+    to { background-position: 80% 25%; }
+}
